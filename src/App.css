@@ -1,45 +1,31 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  margin-bottom: 3rem;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #BF1E2D;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
   font-family: 'Tourney', cursive;
 }
 
-.App-link {
-  color: white;
-  font-size: 1rem;
-  letter-spacing: .8rem;
-  font-weight: bold;
+.btt-primary {
+  display: inline-flex;
+  cursor: pointer;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.125rem;
+  border-width: 0px;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1rem;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1-primary-color {
+  color: #BF1E2D !important;
+}
+
+.h1-variant-color {
+  color: #BF1E2D !important;
+  font-size: 1.75rem !important;
 }
 
 @media (min-width: 600px) {
